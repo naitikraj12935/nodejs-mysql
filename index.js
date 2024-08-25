@@ -2,6 +2,7 @@ import express from 'express';
 import mysql from 'mysql2';
 import Emprouter from './Router/employee.js';
 const app = express();
+//using mysql driver
 const con = mysql.createConnection({
   host: "localhost",
   port: 3306,
